@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Slideshow</title>
+
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="./script.js"defer></script>
+	</head>
+
+	<body>
+		<div class="slideshow">
+			<div class="slideshow__slides">
+				<figure class="slideshow__slide slideshow__slide--visible">
+					<img class="slideshow__img" src="./assets/img/beach.jpeg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+				
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/img/field.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/img/mountain.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/img/pexels.jpg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/img/trees.jpeg" alt="">
+					<figcaption class="slideshow__caption"></figcaption>
+				</figure>
+
+			</div>
+
+			<div class="slideshow__controls">
+				<button class="slideshow__control-button" data-direction="previous">↤</button>
+				<button class="slideshow__control-button" data-direction="next">↦</button>
+			</div>
+			
+			<div class="slideshow__dots">
+				<button class="slideshow__dot" data-index="0"></button>
+				<button class="slideshow__dot" data-index="1"></button>
+				<button class="slideshow__dot" data-index="2"></button>
+				<button class="slideshow__dot" data-index="3"></button>
+				<button class="slideshow__dot" data-index="4"></button>
+			</div>
+		</div>
+
+	</body>
+</html>

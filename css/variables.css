@@ -1,0 +1,19 @@
+:root {
+
+
+	--font-size-base: 1rem;
+	--font-size-small: 0.5rem;
+	--font-size-medium: 1rem;
+	--font-size-large: 1.25rem;
+	--font-size-extra-large: 1.5rem;
+
+	--font-leading-base: 1.2rem;
+	--font-leading-small: 0.6rem;
+	--font-leading-medium: 1.2rem;
+	--font-leading-large: 1.5rem;
+	--font-leading-extra-large: 1.8rem;
+
+	--spacing-small: 1rem;
+	--spacing-medium: 2rem;
+	--spacing-large: 4rem;
+}
